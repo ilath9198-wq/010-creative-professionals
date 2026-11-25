@@ -171,7 +171,7 @@ export default function WorkPage() {
                       className="font-bold text-terracotta-600 hover:text-terracotta-700 uppercase tracking-wider flex items-center gap-1 cursor-pointer"
                     >
                       <Eye className="w-3.5 h-3.5" />
-                      <span>Quick Preview</span>
+                      <span>Preview Specs</span>
                     </button>
 
                     <Link

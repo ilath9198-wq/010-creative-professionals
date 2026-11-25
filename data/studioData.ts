@@ -263,7 +263,7 @@ export const studioJournal: JournalArticle[] = [
     excerpt: 'Great visual identities are not mere decorative badges. They are spatial enclosures that frame how humans experience memory, value, and emotional weight.',
     heroImage: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1600&q=85',
     content: [
-      'In our studio practice at ATELIER N°10, we frequently challenge the mid-century adage that form follows function. When building durable brands in the 21st century, form does not obediently trail behind utility—form *structures* perception before function is even deciphered.',
+      'In our studio practice at ATELIER N°10, we frequently challenge the mid-century adage that form follows function. When building durable brands in the 21st century, form does not obediently trail behind utility—form structures perception before function is even deciphered.',
       'Consider the tactile resistance of unprinted 450gsm cotton rag paper, or the exact radius of an extruded aluminium door handle in a flagship gallery. The sensory cognition occurs in microseconds, long before an observer evaluates an argument or reads an editorial mission statement.',
       'When we strip away decorative noise and focus on typographic tension, white space proportions, and material honesty, the identity begins to carry an undeniable architectural presence. It becomes an atmosphere rather than a campaign.',
     ],

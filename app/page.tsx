@@ -18,7 +18,7 @@ export default function HomePage() {
           1. HERO SECTION (MANDATORY: Atmospheric Photographic Editorial Background)
           Monolithic Contemporary Architecture with Deep Charcoal Gradient Scrims
           ========================================================================= */}
-      <section className="relative min-h-[90vh] sm:min-h-[92vh] flex items-center justify-center overflow-hidden py-24 sm:py-32">
+      <section className="relative min-h-[85vh] sm:min-h-[88vh] lg:min-h-[86vh] flex items-center justify-center overflow-hidden py-16 sm:py-20 lg:py-24">
         {/* Full-bleed Architectural Photographic Background */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -39,12 +39,12 @@ export default function HomePage() {
           <div className="max-w-3xl">
             {/* Delicate Studio Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-charcoal-900/90 border border-concrete-400/40 text-ivory-100 text-xs font-mono font-medium tracking-widest uppercase mb-6 backdrop-blur-md shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-terracotta-400 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-terracotta-400 animate-pulse shrink-0" />
               <span>ATELIER N°10 // MULTIDISCIPLINARY PRACTICE</span>
             </div>
 
             {/* Mandatory Main Headline */}
-            <h1 className="font-editorial text-4xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white leading-[1.06] mb-6 drop-shadow-md">
+            <h1 className="font-editorial text-4xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white leading-[1.06] mb-5 sm:mb-6 drop-shadow-md">
               We Create <br />
               <span className="italic font-normal lowercase font-editorial text-concrete-200">
                 Spaces, Identities
@@ -53,15 +53,15 @@ export default function HomePage() {
             </h1>
 
             {/* Mandatory Supporting Statement */}
-            <p className="font-editorial text-lg sm:text-2xl italic text-concrete-200 leading-relaxed mb-8 max-w-2xl font-normal drop-shadow">
+            <p className="font-editorial text-lg sm:text-2xl italic text-concrete-200 leading-relaxed mb-7 sm:mb-8 max-w-2xl font-normal drop-shadow">
               &ldquo;An independent collaborative studio bringing together architecture, interior design, brand identity systems, and digital platforms into unified harmony.&rdquo;
             </p>
 
             {/* Mandatory High-Contrast Unmissable CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-8 sm:mb-10">
               <Link
                 href="/work"
-                className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-terracotta-500 hover:bg-terracotta-600 text-white font-editorial font-bold text-base sm:text-lg tracking-wider uppercase shadow-terracotta transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 sm:py-4 bg-terracotta-500 hover:bg-terracotta-600 text-white font-editorial font-bold text-base sm:text-lg tracking-wider uppercase shadow-terracotta transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
               >
                 <span>Explore Our Work</span>
                 <ArrowRight className="w-4 h-4" />
@@ -69,7 +69,7 @@ export default function HomePage() {
 
               <button
                 onClick={openEnquiryModal}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-charcoal-900/90 hover:bg-charcoal-800 text-white border-2 border-concrete-400/70 hover:border-ivory-100 font-editorial font-bold text-base sm:text-lg tracking-wider uppercase backdrop-blur-md transition-all transform hover:-translate-y-0.5 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 sm:py-4 bg-charcoal-900/90 hover:bg-charcoal-800 text-white border-2 border-concrete-400/70 hover:border-ivory-100 font-editorial font-bold text-base sm:text-lg tracking-wider uppercase backdrop-blur-md transition-all transform hover:-translate-y-0.5 cursor-pointer"
               >
                 <span>Start a Project</span>
                 <ArrowUpRight className="w-4 h-4 text-terracotta-400" />
@@ -77,12 +77,12 @@ export default function HomePage() {
             </div>
 
             {/* Studio Metrics Micro-Row */}
-            <div className="pt-6 border-t border-concrete-400/30 flex flex-wrap items-center gap-6 text-xs font-mono text-concrete-300">
+            <div className="pt-5 border-t border-concrete-400/30 flex flex-wrap items-center justify-center sm:justify-start gap-x-4 sm:gap-x-6 gap-y-2 text-xs font-mono text-concrete-300">
               <span>ZÜRICH • MILAN • TOKYO</span>
-              <span className="text-charcoal-500">|</span>
+              <span className="hidden sm:inline text-charcoal-500">|</span>
               <span>14+ YEARS OF PRACTICE</span>
-              <span className="text-charcoal-500">|</span>
-              <span className="text-terracotta-400">38 DESIGN HONORS</span>
+              <span className="hidden sm:inline text-charcoal-500">|</span>
+              <span className="text-terracotta-400 font-bold">38 DESIGN HONORS</span>
             </div>
           </div>
         </div>
