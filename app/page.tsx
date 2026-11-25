@@ -87,7 +87,7 @@ export default function HomePage() {
           1. DYNAMIC INTERACTIVE HERO STAGE (MANDATORY ATMOSPHERIC ARCHITECTURE)
           Interactive Crossfading Architectural Showcase with Real-Time Studio Hubs
           ========================================================================= */}
-      <section className="relative min-h-[92vh] sm:min-h-[95vh] flex flex-col justify-between overflow-hidden pt-12 pb-8 sm:pb-12 bg-charcoal-950">
+      <section className="relative min-h-[92vh] sm:min-h-[95vh] flex flex-col justify-between overflow-hidden pt-6 sm:pt-8 pb-4 sm:pb-6 bg-charcoal-950">
         {/* Dynamic Architectural Crossfade Backdrops */}
         {heroSlides.map((slide, idx) => (
           <div
@@ -133,16 +133,16 @@ export default function HomePage() {
         </div>
 
         {/* Main Hero Statement & Actions */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full my-auto py-8">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full my-auto py-3 sm:py-6">
           <div className="max-w-4xl">
             {/* Current Slide Category Pill */}
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-charcoal-900/90 border border-concrete-400/40 text-ivory-100 text-xs font-mono font-medium tracking-widest uppercase mb-6 backdrop-blur-md shadow-sm">
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-charcoal-900/90 border border-concrete-400/40 text-ivory-100 text-xs font-mono font-medium tracking-widest uppercase mb-4 sm:mb-6 backdrop-blur-md shadow-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-terracotta-400" />
               <span>{currentSlide.discipline} // {currentSlide.location}</span>
             </div>
 
             {/* Oversized Expressive Headline */}
-            <h1 className="font-editorial text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold uppercase tracking-tight text-white leading-[1.02] mb-6 drop-shadow-lg">
+            <h1 className="font-editorial text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold uppercase tracking-tight text-white leading-[1.02] mb-4 sm:mb-6 drop-shadow-lg">
               We Shape <br />
               <span className="italic font-normal lowercase font-editorial text-concrete-200">
                 Spaces, Identities
@@ -154,12 +154,12 @@ export default function HomePage() {
             </h1>
 
             {/* Dynamic Slide Subtitle */}
-            <p className="font-editorial text-lg sm:text-2xl italic text-concrete-200 leading-relaxed mb-8 max-w-2xl font-normal drop-shadow">
+            <p className="font-editorial text-lg sm:text-2xl italic text-concrete-200 leading-relaxed mb-6 max-w-2xl font-normal drop-shadow">
               &ldquo;{currentSlide.subtitle}&rdquo;
             </p>
 
             {/* Solid Unmissable High-Contrast CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-8">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-6">
               <Link
                 href="/work"
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-terracotta-500 hover:bg-terracotta-600 text-white font-editorial font-bold text-base sm:text-lg tracking-wider uppercase shadow-terracotta transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
@@ -398,7 +398,7 @@ export default function HomePage() {
                   alt={studioProjects[2].title}
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"
-                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute top-4 left-4 px-3 py-1 bg-charcoal-950/80 text-white text-xs font-mono uppercase">
                   {studioProjects[2].category} // {studioProjects[2].year}

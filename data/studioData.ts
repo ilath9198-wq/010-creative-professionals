@@ -565,7 +565,7 @@ export const studioMaterials: MaterialItem[] = [
     name: 'Sand-Cast Unlacquered Bronze',
     origin: 'St. Gallen Foundry, Switzerland',
     application: 'Architectural Door Pulls, Hardware & Seating Armatures',
-    image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=85',
+    image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=85',
     sensoryNote: 'Heavy, resonant metal hand-waxed with Swiss alpine beeswax; gradually acquires a golden-brown patina from human touch over generations.',
     density: '8,800 kg/m³',
     carbonProfile: '100% recycled scrap bronze melted in induction electric furnaces.',
