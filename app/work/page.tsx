@@ -119,8 +119,12 @@ export default function WorkPage() {
             {filteredProjects.map((project, idx) => (
               <div
                 key={project.id}
-                className="group bg-white border border-concrete-300 flex flex-col justify-between overflow-hidden shadow-studio hover:shadow-studio-lg transition-all duration-300"
+                className="group bg-white border border-concrete-300 flex flex-col justify-between overflow-hidden shadow-studio hover:shadow-studio-lg transition-all duration-300 relative"
               >
+                {/* Architectural Numeral Watermark */}
+                <span className="absolute -top-6 -right-2 font-editorial text-8xl font-bold text-concrete-200 select-none opacity-30 pointer-events-none z-0">
+                  0{idx + 1}
+                </span>
                 {/* Visual Viewport with Interactive Hover */}
                 <div
                   onClick={() => openProjectModal(project)}

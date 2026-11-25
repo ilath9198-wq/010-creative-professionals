@@ -513,3 +513,126 @@ export const studioLocations = [
     email: 'tokyo@atelier-no10.ch',
   },
 ];
+
+export interface MaterialItem {
+  id: string;
+  name: string;
+  origin: string;
+  application: string;
+  image: string;
+  sensoryNote: string;
+  density: string;
+  carbonProfile: string;
+  featuredIn: string;
+}
+
+export const studioMaterials: MaterialItem[] = [
+  {
+    id: 'mat-01',
+    name: 'Verde Alpi Crushed Terrazzo',
+    origin: 'Valle d’Aosta & Carrara, Italy',
+    application: 'Seamless Monolithic Flooring & Sunken Lounges',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85',
+    sensoryNote: 'Cool to touch with subtle mineral depth; fragments scatter daylight across floor planes like ripples on alpine water.',
+    density: '2,650 kg/m³',
+    carbonProfile: 'Low-energy aggregate binding with fly-ash mineral matrix.',
+    featuredIn: 'Casa Terrazzo & Mineral Loft (Milan)',
+  },
+  {
+    id: 'mat-02',
+    name: 'Board-Formed Alpine Limestone Concrete',
+    origin: 'Zürich Oberland, Switzerland',
+    application: 'Load-Bearing Thermal Mass & Sculptural Lightwells',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85',
+    sensoryNote: 'Rough horizontal wood grain imprinted into sandblasted stone; exhibits dramatic solar shadows throughout daylight hours.',
+    density: '2,400 kg/m³',
+    carbonProfile: 'Minergie-A compliant with 40% recycled fly-ash binder.',
+    featuredIn: 'Solis Monolithic Pavilion (Zürich)',
+  },
+  {
+    id: 'mat-03',
+    name: 'Yakisugi Charred Spruce Timber',
+    origin: 'Bergen Coastal Archipelago, Norway',
+    application: 'Weather-Resistant Exterior Cladding & Casework',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=85',
+    sensoryNote: 'Deep charcoal carbonised surface with natural cedar aroma; naturally impervious to North Atlantic coastal moisture without chemical resins.',
+    density: '480 kg/m³',
+    carbonProfile: 'Carbon-negative Scandinavian timber sequestration.',
+    featuredIn: 'Njord Cross-Laminated Timber Retreat',
+  },
+  {
+    id: 'mat-04',
+    name: 'Sand-Cast Unlacquered Bronze',
+    origin: 'St. Gallen Foundry, Switzerland',
+    application: 'Architectural Door Pulls, Hardware & Seating Armatures',
+    image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=85',
+    sensoryNote: 'Heavy, resonant metal hand-waxed with Swiss alpine beeswax; gradually acquires a golden-brown patina from human touch over generations.',
+    density: '8,800 kg/m³',
+    carbonProfile: '100% recycled scrap bronze melted in induction electric furnaces.',
+    featuredIn: 'Atelier N°10 Cast Bronze Armchair Edition',
+  },
+  {
+    id: 'mat-05',
+    name: 'Uncoated 450gsm Cotton Rag Paper',
+    origin: 'Lake Geneva Mill, Switzerland',
+    application: 'Bespoke Monograph Covers, Stationery & Luxury Packaging',
+    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=85',
+    sensoryNote: 'Velvety fibrous tooth with distinctive auditory snap; holds blind micro-debossing with razor-sharp edge retention.',
+    density: '450 g/m²',
+    carbonProfile: '100% post-consumer cotton fiber with closed-loop water recycling.',
+    featuredIn: 'Nocturne Botanical Parfumerie & Vellum Trust',
+  },
+];
+
+export interface HeroSlide {
+  id: string;
+  num: string;
+  title: string;
+  subtitle: string;
+  discipline: string;
+  location: string;
+  coordinates: string;
+  elevation: string;
+  image: string;
+  slug: string;
+}
+
+export const heroSlides: HeroSlide[] = [
+  {
+    id: 'slide-01',
+    num: '01',
+    title: 'Solis Monolithic Pavilion',
+    subtitle: 'Where mass acts as shelter and daylight acts as acoustic resonance.',
+    discipline: 'Cultural & Residential Architecture',
+    location: 'Zürich Oberland, Switzerland',
+    coordinates: '47.3769° N, 8.5417° E',
+    elevation: 'EL. 620M',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85',
+    slug: 'solis-pavilion-zurich',
+  },
+  {
+    id: 'slide-02',
+    num: '02',
+    title: 'Casa Terrazzo & Mineral Loft',
+    subtitle: 'Tactile tranquility carved from raw crushed marble, smoked oak, and cast brass.',
+    discipline: 'Luxury Residential Interior Architecture',
+    location: 'Brera District, Milan, Italy',
+    coordinates: '45.4642° N, 9.1900° E',
+    elevation: 'EL. 120M',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2000&q=85',
+    slug: 'casa-terrazzo-milan',
+  },
+  {
+    id: 'slide-03',
+    num: '03',
+    title: 'Njord Cross-Laminated Timber Retreat',
+    subtitle: 'A carbon-negative coastal sanctuary cantilevering over fjord rock shelves.',
+    discipline: 'Sustainable Coastal Architecture',
+    location: 'Bergen Coastal Archipelago, Norway',
+    coordinates: '60.3913° N, 5.3221° E',
+    elevation: 'EL. 45M',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2000&q=85',
+    slug: 'nordic-timber-residence',
+  },
+];
+
